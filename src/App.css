@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aqua;
+  text-align: center;
+
+}
+
+.loading {
+  font-size: 100px;
+  color: blue;
+  text-shadow: cornflowerblue,10px,blur;
+  text-align: center;
+  /* align-content: ; */
+  margin-top: 5%;
+}
+
+.searchbox{
+  margin: 1%;
+  color: darkgray;
+  /* width: 200px; */
+}
+.title{
+  margin-top: 1%;
+  text-shadow:violet 0 -2px
+}
+.card{
+  display: inline-table;
+  border: black dashed;
+  margin: 1%;
+  padding: 1%;
+  background-color: rgb(47, 45, 148);
+}
+
+.modal{
+  width: 600px;
+  height: 400px;
+  background-color: green;
+  position: fixed;
+  top: 10%;
+  left: 30%;
+  z-index: 100;
+
+}
+
+.black{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0,.5);
+  position: fixed;
+  z-index: 50;
+  top: 0;
+  left: 0
+}
+
+
+.leaflet-container {
+  width: 600px;
+  height: 400px;
+}
+
+.obj {
+  margin: 1%;
+  padding: 1%;
+  border: black dashed;
+  text-shadow: rgb(255, 255, 255) -1px 2px;
+  background-color: cornflowerblue;
+  font-size: x-large;
+  border-radius: 10px;
+}
+
+.btn{
+  width: 300px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: cornflowerblue;
+  border: black 5px solid;
+  font-size:x-large;
+  font-style:bold;
+  text-shadow: rgb(255, 255, 255) -1px 2px;
+  margin-bottom: 10%;
+}
+
+
+
